@@ -51,6 +51,7 @@
         display: flex;
         width: 100%;
         justify-content: space-evenly;
+        align-items: center;
     }
     .ref_image {
         display: flex;
@@ -63,7 +64,10 @@
     .ref_image img {
         width: 100%;
     }
-    @media only screen and (max-width: 1000px) {
+    .main-header .main-menu ul .contact-item{
+        display:  none;
+    }
+    @media (max-width: 1000px) {
       .single-row {
         flex-direction: column;
         align-items: center;
@@ -73,7 +77,12 @@
         min-height: 200px;
       }
     }
-    @media only screen and (max-width: 600px) {
+    @media (max-width: 991px) {
+        .contact-item {
+            display: none;
+        }
+    }
+    @media (max-width: 600px) {
       .logo_img {
         width: 250px;
       }
@@ -117,6 +126,7 @@
                         <li><a href="home.html">Početna</a></li>
                         <li><a href="services.html">Usluge</a></li>
                         <li><a href="references.html">Reference</a></li>
+                        <li class="contact-item"><a href="contact.html">Kontakt</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -263,23 +273,20 @@
               <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                 <div class="single-footer-caption mb-50">
                   <div class="footer-tittle">
-                    <h4>Usluge</h4>
+                    <h4>Korisni linkovi</h4>
                     <ul>
                       <li>
-                        <a href="services.html#first"
-                          >Topografija / situacioni planovi</a
+                        <a href="https://www.rgz.gov.rs/"
+                          >Republički geodetski zavod</a
                         >
                       </li>
                       <li>
-                        <a href="services.html#fourth">Računanje kubatura</a>
+                        <a href="https://katastar.rgz.gov.rs/eKatastarPublic/PublicAccess.aspx">eKatastar nepokretnosi</a>
                       </li>
-                      <li><a href="services.html#eighth">Parcelacija</a></li>
+                      <li><a href="https://geosrbija.rs/">Geosrbija</a></li>
                       <li>
-                        <a href="services.html#seventh">Etažiranje objekta</a>
-                      </li>
-                      <li>
-                        <a href="services.html#tenth"
-                          >Snimanje podzemnih instalacija</a
+                        <a href="https://rgo.rgz.gov.rs/public-report/registarlicencizarad-PodaciLicenceZaRad-842"
+                          >Registar geodetskih organizacija</a
                         >
                       </li>
                     </ul>
