@@ -31,8 +31,25 @@
       margin-top: 30px;
     }
     img {
-      width: 100%;
       height: auto;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    .image {
+      width: 100%;
+    }
+    .logo_img {
+        width: 250px;
+      }
+    @media (min-width: 600px) {
+      .logo_img {
+        width: 350px;
+      }
+      .image {
+        width: auto;
+        max-width: 70%;
+      }
     }
   </style>
   <body>
@@ -57,7 +74,8 @@
                 <div class="col-xl-2 col-lg-1 col-md-1">
                   <div class="logo">
                     <a href="home.html"
-                      ><img src="assets/img/logo/logo.jpg" alt="" width="250px"
+                      ><img src="assets/img/logo/logo.jpg" alt="" 
+                      class="logo_img"
                     /></a>
                   </div>
                 </div>
@@ -68,14 +86,14 @@
                       <ul id="navigation">
                         <li><a href="home.html">Početna</a></li>
                         <li><a href="services.html">Usluge</a></li>
-                        <li><a href="contact.html">Kontakt</a></li>
+                        <li><a href="references.html">Reference</a></li>
                       </ul>
                     </nav>
                   </div>
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-3">
                   <div class="header-right-btn f-right d-none d-lg-block">
-                    <a href="tel:062-432-421" class="btn header-btn"
+                    <a href="contact.html" class="btn header-btn"
                       >Kontaktirajte nas</a
                     >
                   </div>
@@ -128,6 +146,7 @@
                 <img
                   src="assets/img/gallery/services/primer1.jpg"
                   alt="Saobracajnica"
+                  class="image"
                 />
                 <br />
                 <br />
@@ -150,6 +169,7 @@
               <img
                 src="assets/img/gallery/services/primer2.png"
                 alt="Saobracajnica"
+                class="image"
               />
               <br />
               <br />
@@ -178,6 +198,7 @@
               <img
                 src="assets/img/gallery/services/primer3.jpg"
                 alt="Saobracajnica"
+                class="image"
               />
             </div>
             <hr />
@@ -204,6 +225,7 @@
               <img
                 src="assets/img/gallery/services/primer4.jpg"
                 alt="Saobracajnica"
+                class="image"
               />
             </div>
             <hr />
@@ -245,6 +267,7 @@
               <img
                 src="assets/img/gallery/services/primer5.png"
                 alt="Saobracajnica"
+                class="image"
               />
             </div>
             <hr />
@@ -276,6 +299,7 @@
               <img
                 src="assets/img/gallery/services/primer6.jpg"
                 alt="Saobracajnica"
+                class="image"
               />
             </div>
             <hr />
@@ -311,6 +335,7 @@
               <img
                 src="assets/img/gallery/services/primer7.jpg"
                 alt="Saobracajnica"
+                class="image"
               />
               <br />
             </div>
@@ -392,6 +417,7 @@
               <img
                 src="assets/img/gallery/services/primer8.jpg"
                 alt="Saobracajnica"
+                class="image"
               />
               <br />
             </div>
